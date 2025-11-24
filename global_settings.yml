@@ -1,0 +1,14 @@
+object_type: global_settings
+overrides:
+    "xmla.auth.token.enabled": "true"
+    "xmla.discover.properties.daxdialect": "tabular"
+    "aggregates.create.allowExactDistinctCountMeasures.enabled": "true"
+    "aggregates.prediction.checkForNonAdditiveMeasuresAndConstraints.enabled": "false"
+    "query.factless.ignoreIncidentalFilter": "false"
+    "connection.pool.user.idleConnectionDuration": "6 hours"
+    "connection.pool.idleConnectionDuration": "6 hours"
+    "tableau.pgwire.authentication": "oauth"
+    "tableau.connector.type": "atscale_pgwire"
+    "tableau.pgwire.client.protocol": "atscale_pgwire"
+    "query.includeComments.general.queryId" : True
+    "query.includeComments.general.userId" : True
